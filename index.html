@@ -6,58 +6,22 @@
   <title>Mi Currículum</title>
   <link rel="stylesheet" href="./css/estils.css">
   <script src="https://kit.fontawesome.com/123456789.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="#quiensoy"><img src="./img/address-card-solid.svg" class="imgheader"></a></li>
-        <li><a href="#estudios">Menu de nav</a></li>
-        <li><a href="#experiencia">Menu de nav</a></li>
-      </ul>
+    <nav class="navheader">
+      <div class="navheader-ezquierda">
+        <li><a href="#quiensoy">Quien Soy?</a></li>
+      </div>
+      <div class="navheader-derecha">
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#objetivos">Objetivos</a></li>
+        <li><a href="#estudios">Estudios</a></li>
+      </div>
     </nav>
-    <div class="header">
-      <p>Óscar López</p>
-  </div>
   </header>
-  <main>
-    <section id="quiensoy">
-      <h2>Quién soy</h2>
-      <img src="foto.jpg" alt="Foto de mi" width="200">
-      <p>Nombre: Juan Pérez</p>
-      <p>Email: juanperez@gmail.com</p>
-      <p>Teléfono: 123456789</p>
-      <p>Descripción: Soy una persona proactiva y comprometida con mi trabajo. Me gusta aprender cosas nuevas y enfrentar desafíos. En mi tiempo libre disfruto de la lectura y la práctica de deportes.</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/123456789" title="Video descripción" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </section>
-    <section id="estudios">
-      <h2>Estudios</h2>
-      <ul>
-        <li>2015-2019: Licenciatura en Ingeniería Civil - Universidad Nacional de Córdoba</li>
-        <li>2019-2021: Maestría en Gerencia de Proyectos - Universidad de Buenos Aires</li>
-      </ul>
-      <div id="map"></div>
-    </section>
-    <section id="experiencia">
-      <h2>Experiencia</h2>
-      <ul>
-        <li>
-          <h3>Empresa A - Sector Construcción</h3>
-          <p>Funciones: Coordinación y supervisión de obras</p>
-          <p>Periodo: Enero 2020 - Abril 2021</p>
-        </li>
-        <li>
-          <h3>Empresa B - Sector Consultoría</h3>
-          <p>Funciones: Elaboración de estudios de factibilidad</p>
-          <p>Periodo: Mayo 2021 - Actualidad</p>
-        </li>
-      </ul>
-    </section>
-  </main>
-  <footer>
-    <p>© 2023 Juan Pérez</p>
-  </footer>
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
-  <script src="map.js"></script>
 </body>
 </html>
