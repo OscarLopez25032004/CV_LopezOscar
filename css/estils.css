@@ -1,145 +1,47 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+/* indica el estilo del html */
+html {
+    font-size: 50px;
 }
-  
+/* indica el estilo del cuerpo de la pagina */
 body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-}  
-/* Estilos del header */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #0074D9;
-    padding: 10px 20px;
-}
-
-header h1 {
-    color: #FFFFFF;
     margin: 0;
+    font-family: 'Bruno Ace SC', cursive;
 }
-
+/* indica el encabezado de la pagina */
+header {
+    width: auto;
+    height: 46vh;
+    background-image: url("./../img/header.png  ");
+    background-size: cover;
+    position: relative;
+}
+/* indica el estilo css de los div que se encuentran dentro del encabezado */
+.header {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* indica el estilo css de todos los elementos p de los div que se encuentran dentro del encabezado */
+.header p {
+    font-size: 2.7rem;
+    text-align: center;
+}
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
-
 nav li {
     margin-left: 20px;
 }
-
 nav li:first-child {
     margin-left: 0;
 }
-
-nav a {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-/* Estilos del footer */
-footer {
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 10px;
-    background-color: #F5F5F5;
-}
-
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-}
-
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Estilos de la sección "Qui sóc?" */
-.personal-info {
-    display: flex;
-    align-items: center;
-}
-
-.personal-info img {
-    max-width: 200px;
-    margin-right: 20px;
-}
-
-.personal-info p {
-    margin: 0;
-}
-
-/* Estilos de la sección "Estudis" */
-.education-info {
-    display: flex;
-    align-items: center;
-}
-
-.education-info iframe {
-    max-width: 400px;
-    height: 300px;
-    margin-right: 20px;
-}
-
-/* Estilos de la sección "Experiència" */
-.job-info {
-    margin-top: 30px;
-}
-
-.job-info h3 {
-    margin-top: 0;
-}
-
-.job-info ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.job-info li {
-    margin-bottom: 10px;
-}
-
-.job-info li span {
-    font-weight: bold;
-    margin-right: 10px;
-}
-
-/* Estilos responsive */
-@media screen and (max-width: 500px) {
-    .container {
-        padding: 10px;
-    }
-
-    .personal-info {
-        flex-direction: column;
-    }
-
-    .personal-info img {
-        margin: 0 auto 20px;
-        display: block;
-    }
-
-    .education-info {
-        flex-direction: column;
-    }
-
-    .education-info iframe {
-        margin: 0 auto 20px;
-        display: block;
-    }
+.imgheader {
+    margin-left: 10%;
+    width: 20%;
 }
