@@ -1,3 +1,7 @@
+/* indica el estilo css de toda la pagina */
+* {
+    box-sizing: border-box;
+}
 /* indica el estilo del html */
 html {
     font-size: 50px;
@@ -7,41 +11,159 @@ html {
 body {
     margin: 0;
 }
-header {
-    background-image: url("./../img/header.png");
-    background-size: cover;
-    position: relative;
-    font-size: 0.5rem;
+nav {
+	background-color: rgb(78, 62, 62);
+	height: 50px;
+	display: flex;
+	align-items: center;
 }
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.logo {
+	padding: 0 20px;
 }
-nav li {
-    width: 100%;
-    text-align: center;
-    display: flex;
+.logo a {
+	color: #fff;
+	font-size: 0.7rem;
+	text-decoration: none;
 }
-nav a {
-    padding: 30px;
-    text-decoration: none;
-    color: white;
-    background-color: black;
-}  
-nav a:hover {
-    background-color: white;
+.menu {
+	margin-left: auto;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+li {
+	margin: 0 10px;
+}
+li a {
+	color: #fff;
+	font-size: 0.7rem;
+	text-decoration: none;
+}
+a:hover {
     color: black;
     font-weight: bold;
 }
-.navheader {
+.titulo {
+	background-image: url('./../img/header.png');
+	background-size: cover;
+	height: 420px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+h1 {
+	font-size: 2.5rem;
+	text-align: center;
+    color: black;
+	text-shadow: 0 0 5px black, 0 0 20px gray, 0 0 30px lightgray;
+}
+.row1 {
     display: flex;
-    justify-content: space-between;
-    background-color: black;
-    position: fixed;
-    top: 0;
+    flex-wrap: wrap;
     width: 100%;
 }
-.navheader-derecha {
+.column-1 {
+    width: 100%;
     display: flex;
+    justify-content: center;
+}
+.column-2 {
+    width: 48%;
+    margin-left: 2%;
+}
+.separadorquiensoy {
+    color: black;
+    width: 60%;
+}
+h2 {
+	font-size: 1.3rem;
+	text-align: center;
+    color: rgb(63, 63, 63);
+	text-shadow: 0 0 3px black, 0 0 20px gray, 0 0 30px lightgray;
+}
+h3 {
+    font-size: 0.9rem;
+	text-align: center;
+    color: rgb(95, 95, 95);
+	text-shadow: 0 0 3px black, 0 0 20px gray, 0 0 30px lightgray;
+}
+.datospers {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.datospers2 {
+    font-size: 0.5rem;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 2%;
+}
+iframe {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+.imgdeco1 {
+    width: 100%;
+}
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(78, 62, 62);
+}
+.tituloform {
+    font-size: 1.3rem;
+	text-align: center;
+    color: rgb(187, 187, 187);
+	text-shadow: 0 0 3px rgb(255, 255, 255), 0 0 20px gray, 0 0 30px lightgray;
+}
+.margincenter {
+    text-align: center;
+    font-weight: normal;
+}
+.subtitulosform {
+    font-size: 0.9rem;
+	text-align: center;
+    color: rgb(146, 146, 146);
+	text-shadow: 0 0 3px rgb(99, 99, 99), 0 0 20px gray, 0 0 30px lightgray;
+}
+.separadorform {
+    color: rgb(255, 255, 255);
+    width: 60%;
+}
+.separadorform2 {
+    color: rgb(255, 255, 255);
+    width: 40%;
+}
+.datospers3 {
+    font-size: 0.5rem;
+    font-weight: bold;
+    text-align: left;
+    margin-right: 2%;
+}
+.imgtgl {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+footer {
+    margin-bottom: 0;
+}
+.logo2 {
+	padding: 1;
+}
+/* indica el estilo css de las imgs de los idiomas del footer */
+.widthimgfooter {
+    width: 50%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+/* indica el estilo css de las imgs de los idiomas del footer */
+.widthimgfootereng {
+    width: 30%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-left: 50%;
 }
