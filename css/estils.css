@@ -11,41 +11,50 @@ html {
 body {
     margin: 0;
 }
+/* indica el estilo del elemento de navegación */
 nav {
 	background-color: rgb(78, 62, 62);
 	height: 50px;
 	display: flex;
 	align-items: center;
 }
+/* indica el estilo del primer icono del nav */
 .logo {
 	padding: 0 20px;
 }
+/* indica el estilo de la letra del primer icono del nav */
 .logo a {
 	color: #fff;
 	font-size: 0.7rem;
 	text-decoration: none;
 }
+/* indica el estilo de los otros 3 elementos de la derecha del nav */
 .menu {
 	margin-left: auto;
 }
+/* indica el estilo de la lista desordenada */
 ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	display: flex;
 }
+/* indica el estilo de los elementos de la lista */
 li {
 	margin: 0 10px;
 }
+/* indica el estilo de las letras de los elementos de la lista desordenada */
 li a {
 	color: #fff;
 	font-size: 0.7rem;
 	text-decoration: none;
 }
+/* indica la animación de las letras de los elementos de la lsita desordenada */
 a:hover {
     color: black;
     font-weight: bold;
 }
+/* indica el estilo del titulo de la pagina, ademas de la img de fondo */
 .titulo {
 	background-image: url('./../img/header.png');
 	background-size: cover;
@@ -54,104 +63,158 @@ a:hover {
 	align-items: center;
 	justify-content: center;
 }
+/* indica el estilo de titulo de cada fila */
 h1 {
 	font-size: 2.5rem;
 	text-align: center;
     color: black;
 	text-shadow: 0 0 5px black, 0 0 20px gray, 0 0 30px lightgray;
 }
+/* indica el estilo de algunas fila de la pagina */
 .row1 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
+/* indica el estilo de las columnas que ocupan todo el ancho de la pantalla */
 .column-1 {
     width: 100%;
     display: flex;
     justify-content: center;
 }
+/* indica el estilo de las columnas que ocupan todo el ancho de la pantalla */
+.column-1-1 {
+    width: 100%;
+    text-align: center;
+}
+/* indica el estilo del boton de descargar el cv */
+.descargar {
+    background-color: rgb(78, 62, 62);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.5rem;
+}
+/* indica el estilo de las columnas que se dividen en dos (50% del ancho de la pantalla) */
 .column-2 {
     width: 48%;
     margin-left: 2%;
 }
+/* indica el estilo de las columnas que se dividen en dos (50% del ancho de la pantalla) */
+.column-2-2 {
+    width: 48%;
+    margin-left: 2%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+/* indica el estilo de los separadores (hr) de la fila de #quiensoy */
 .separadorquiensoy {
     color: black;
     width: 60%;
 }
+/* indica el estilo de titulo de cada fila */
 h2 {
 	font-size: 1.3rem;
 	text-align: center;
     color: rgb(63, 63, 63);
 	text-shadow: 0 0 3px black, 0 0 20px gray, 0 0 30px lightgray;
 }
+/* indica el estilo de titulo de cada fila */
 h3 {
     font-size: 0.9rem;
 	text-align: center;
     color: rgb(95, 95, 95);
 	text-shadow: 0 0 3px black, 0 0 20px gray, 0 0 30px lightgray;
 }
+/* indica el estilo del texto de los datos personales */
 .datospers {
     font-size: 0.7rem;
     font-weight: bold;
 }
+/* indica el estilo del texto de los datos personales */
 .datospers2 {
     font-size: 0.5rem;
     font-weight: bold;
     text-align: right;
     margin-right: 2%;
 }
+/* indica el estilo de los iframe de la pagina */
 iframe {
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     margin-bottom: 2%;
 }
+/* indica el estilo de las img de decoración */
 .imgdeco1 {
     width: 100%;
 }
+/* indica el estilo de algunas columnas de la pagina */
 .row2 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     background-color: rgb(78, 62, 62);
 }
+/* indica el estilo del titulo de formación */
 .tituloform {
     font-size: 1.3rem;
 	text-align: center;
     color: rgb(187, 187, 187);
 	text-shadow: 0 0 3px rgb(255, 255, 255), 0 0 20px gray, 0 0 30px lightgray;
 }
+/* indica el estilo para que los los elementos se alineen al centro */
 .margincenter {
     text-align: center;
     font-weight: normal;
 }
+/* indica el estilos de los subtitulos de la fila de formación */
 .subtitulosform {
     font-size: 0.9rem;
 	text-align: center;
     color: rgb(146, 146, 146);
 	text-shadow: 0 0 3px rgb(99, 99, 99), 0 0 20px gray, 0 0 30px lightgray;
 }
+/* indica el estilo del separador (hr) de la fila de formación */
 .separadorform {
     color: rgb(255, 255, 255);
     width: 60%;
 }
+/* indica el estilo del separador (hr) de la fila de formación */
+
 .separadorform2 {
     color: rgb(255, 255, 255);
     width: 40%;
 }
+/* indica el estilo de algunos datos personales */
 .datospers3 {
     font-size: 0.5rem;
     font-weight: bold;
     text-align: left;
     margin-right: 2%;
 }
+/* indica el estilo de la img de tgl */
 .imgtgl {
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
 }
+/* indica el estilo de la foto personal */
+.imgoscar {
+    width: 50%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+/* indica el estilo del pie de pagina */
 footer {
     margin-bottom: 0;
 }
+/* indica el estilo del primer icono del nav */
 .logo2 {
+	padding: 1;
+}
+/* indica el estilo del primer icono del nav */
+.logo3 {
 	padding: 1;
 }
 /* indica el estilo css de las imgs de los idiomas del footer */
@@ -166,4 +229,79 @@ footer {
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     margin-left: 50%;
+}
+/* indica el comienzo de las media queries */
+@media screen and (max-width: 500px) {
+    /* indica la media query de la letra del primer icono del nav */
+    .logo a {
+        font-size: 0.3rem;
+    }
+    /* indica la media query de las letras de los elementos de la lista desordenada */
+    li a {
+        font-size: 0.3rem;
+    }
+    /* indica la media query de titulo de cada fila */
+    h1 {
+        font-size: 1.6rem;
+    }
+    /* indica la media query de titulo de cada fila */
+    h2 {
+        font-size: 0.9rem;
+    }
+    /* indica la media query de titulo de cada fila */
+    h3 {
+        font-size: 0.7rem;
+    }
+    /* indica la media query de las columnas que antes de dividian en dos (50%) y ahora ocupan toda la fila (100%) */
+    .column-2 {
+        width: 100%;
+    }
+    /* indica la media query de las columnas que antes de dividian en dos (50%) y ahora ocupan toda la fila (100%) */
+    .column-2-2 {
+        width: 100%;
+    }
+    /* indica la media query de los iframe de la pagina */
+    iframe {
+        width: 80%;
+    }
+    /* indica la media query del titulo de la pagina, ademas de la img de fondo */
+    .titulo {
+        width: 100%;
+    }
+    /* indica la media query del texto de los datos personales */
+    .datospers {
+        font-size: 0.5rem;
+    }
+    /* indica la media query del texto de los datos personales */
+    .datospers2 {
+        text-align: center;
+        font-size: 0.5rem;
+    }
+    /* indica la media query del titulo de formación */
+    .tituloform {
+        font-size: 0.9rem;
+    }
+    /* indica la media query del texto de los datos personales */
+    .datospers3 {
+        font-size: 0.5rem;
+        text-align: center;
+    }
+    /* indica la media query del primer icono del nav */
+    .logo {
+        margin-top: -11%;
+    }
+    /* indica la media query de los otros 3 elementos de la derecha del nav */
+    .menu {
+        margin-left: auto;
+        margin-top: -11%;
+    }
+    /* indica la media query del primer icono del nav */
+    .logo3 {
+        font-size: 0.1rem;
+        margin-top: -4%;
+    }
+    /* indica la media query de las imgs de los idiomas del footer */
+    .widthimgfootereng {
+        width: 40%;
+    }
 }
